@@ -1,0 +1,525 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Vesper Libre', serif;
+    color: rgb(207,19,107);
+}
+
+header{
+    height: 100vh;
+    width: 100vw;
+    
+}
+nav{
+    
+    width: 90%;
+    margin: 10px auto;
+    text-align: right;
+}
+nav ul li{
+    display: inline-block;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(207,19,107);
+    font-size: 20px;
+    margin: 0 10px;
+    letter-spacing: 1px;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+
+}
+
+.strapline-container{
+    border: 2px solid rgb(207,19,107);
+    width: 90%;
+    height: 85%;
+    display: fixed;
+    margin: auto auto;
+    text-align: center;
+    background: url(images/realmessi3.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    
+}
+
+.info{
+    width: 90%;
+    margin: auto;
+}
+.info p{
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+
+.section-title{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(207,19,107);
+    text-transform: uppercase;
+    font-size: 240%;
+    margin-bottom: 25px;
+
+}
+
+.about-section{
+    width: 100vw;
+   
+    
+   
+}
+.career-section{
+    width: 100vw;
+
+}
+
+.about-container,.Career-container{
+    
+    width: 85%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+}
+.left-box{
+    width: 45%;
+    text-align: justify;
+    line-height: 220%;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+
+   
+    
+}
+.cleft-box{
+    width: 90%;
+    text-align: justify;
+    line-height: 220%;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+
+   
+
+}
+.right-box{
+    
+    width: 40%;
+    
+    margin-left: 6%;
+
+}
+.grid-image-one{
+    width: 50%;
+    height: 240px;
+    background-image: url(./images/messi\ 17.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.grid-image-two{
+    width: 50%;
+    height: 240px;
+    background-image: url(./images/messi\ 18.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.grid-image-three{
+    width: 50%;
+    height: 240px;
+    background-image: url(./images/messi\ 19.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.grid-image-four{
+    width: 50%;
+    height: 240px;
+    background-image: url(./images/messi\ 20.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.top-row, .bottom-row{
+    display: flex;
+    flex-direction: row;
+}
+.image-section{
+    width: 100vw;
+}
+.image-container{
+    width: 100%;
+    
+    
+}
+.row-one, .row-two, .row-three{
+   
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    
+}
+.grid-item{
+    
+    width: 30%;
+    height: 310px;
+    
+    margin: 15px;
+}
+#messi-one{
+    background-image: url(images/messi\ 17.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+#messi-two{
+    background-image: url(./images/messi\ 18.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+#messi-three{
+    background-image: url(./images/messi\ 19.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+#messi-four{
+    background-image: url(./images/messi\ 2.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#messi-five{
+    background-image: url(./images/messi\ 5.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+#messi-six{
+    background-image: url(./images/messi\ 6.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+#messi-seven{
+    background-image: url(./images/messi\ 7.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+#messi-eight{
+    background-image: url(./images/messi\ 8.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+#messi-nine{
+    background-image: url(./images/messi\ 9.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+
+
+
+@media only screen and (max-width:840px){
+    .about-container,.left-box,.right-box,.top-row,.bottom-row{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+        
+    }
+    .grid-image-one,.grid-image-two,.grid-image-three,.grid-image-four{
+        width: 100%;
+    }
+
+}
+@media only screen and (max-width:600px){
+    .image-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .row-one,.row-two,.row-three{
+        display: flex;
+        flex-direction: column;
+    }
+    #messi-one,#messi-two,#messi-three,#messi-four,#messi-five,#messi-six,#messi-seven,#messi-eight,#messi-nine{
+        width: 100%;
+    }
+}
+
+
+
+/* contact section */
+
+section.contact{
+    width: 85%;
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+   }
+   
+   .contact .first{
+       width: 55%;
+   }
+   .first .con{
+       color: rgb(207,19,107);
+        margin-bottom: 10px;
+       font-size: 16px;
+   }
+   .first .get{
+       font-size: 26px;
+       margin-bottom: 20px;
+       color: rgb(207,19,107);
+   }
+   .first .shoot{
+       color: rgb(207,19,107);
+       font-size: 16px;
+       line-height: 25px;
+   }
+   .first form{
+       margin-top: 30px;
+       width: 100%;
+   }
+   form .group2{
+       width: 100%;
+       display: flex;
+       margin-bottom: 20px;
+       justify-content: space-between;
+   }
+   .group2 input{
+       width: 46%;
+   }
+   input,textarea{
+      background: transparent;
+      border: transparent;
+       padding: 10px;
+       color: #C0C1C7;
+       border: 0.5px solid #C0C1C7
+   }
+   
+   .group3,.group{
+       margin-top: 20px;
+   }
+   .group,.group3{
+       width: 100%;
+   }
+   .group input{
+       width: 46%;
+   }
+   .group3 textarea{
+       width: 100%;
+       height: 200px;
+   }
+   form button{
+       width: 150px;
+       margin-top: 20px;
+       padding: 10px;
+       background-color: rgb(207,19,107);
+       margin-bottom: 40px;
+       border: none;
+       color: white;
+   }
+   input[type="radio"]{
+    width: unset;
+}
+   
+   input:focus{
+       outline: none;
+   }
+   textarea:focus{
+       outline: none;
+   }
+   
+   .second{
+       margin-top: 150px;
+       width: 27%;
+       background: #000033;
+   
+       height: 380px;
+       padding: 20px 0px;
+   
+   }
+   
+   .phone{
+      margin-bottom: 30px;
+   }
+   .bgh{
+       width: 80%;
+       margin:auto;
+   }
+   .line{
+       width: 100%;
+       border-bottom: 0.5px solid #C0C1C7;
+       margin-bottom: 30px;
+   }
+   .phone p{
+       color: #C0C1C7;
+   }
+   .phone .numg{
+       font-weight: 600;
+       font-size: 18px;
+       color: rgb(207,19,107);
+   }
+   
+   .icons{
+       margin-top: 15px;
+       width: 70%;
+       display: flex;
+       justify-content: space-between;
+   }
+   .icons img{
+       width: 20px;
+   }
+   
+   @media(max-width:1008px){
+      .bgh{
+          width: 90%;
+      }
+      .second{
+          width: 35%;
+      }
+   }
+   @media(max-width:970px){
+       header{
+           flex-direction: column-reverse;
+       }
+       header .welcometext{
+           width: 100%;
+           margin: auto;
+           padding-top: 100px;
+       }
+       header .picture{
+           width: 100%;
+           display: none;
+       }
+       .icn{
+           display: none;
+   
+       }
+   
+       section.about{
+           flex-direction: column;
+       }
+       .mypic{
+           width: 70%;
+           margin: auto;
+       }
+       .abouttext{
+           width: 100%;
+       }
+   
+   }
+   @media(max-width:500px){
+       header .welcometext p{
+       
+           color: #C0C1C7;
+           
+           font-size: 17px;
+           line-height: 20px;
+           margin-bottom: 20px;
+       }
+       
+       header .welcometext p.front{
+           font-weight: 600;
+           font-size: 30px;
+           line-height: 35px;
+           color: rgb(207,19,107);
+       }
+       header .welcometext p.explain{
+           font-size: 12px;
+           line-height: 27px;
+       }
+       .abouttext p{
+           font-size: 12px;
+       }
+       .abouttext p.aboutme{
+           font-size: 20px;
+       }
+       .first .shoot{
+           font-size: 14px;
+       }
+       .phone p{
+           font-size: 14px;
+       }
+       .phone .numg{
+           font-size: 16px;
+       }
+       .first .get{
+           font-size: 23px;
+       }
+   }
+   @media(max-width:768px){
+   
+       section.contact{
+           flex-direction: column;
+       }
+   
+       .contact .first{
+           width: 100%;
+       }
+   
+       .second {
+           width: 100%;
+       }
+   
+       .projtext p{
+          
+           font-size: 12px;
+           
+       }
+       .projtext p.real{
+           
+           font-size: 18px;
+       
+       }
+       .icons{
+           width: 70%;
+       }
+       /* nav{
+       width: 100%;
+       position: fixed;
+       top: 0;
+       left: 0;
+       z-index: 5;
+    } */
+   
+      .projects{
+          flex-direction: column;
+          height: auto;
+          padding-bottom: 7px;
+      }
+      .projects.two{
+          flex-direction: column-reverse;
+      }
+      .projects .img{
+          width: 100%;
+      }
+      .projects .projtext{
+          width: 100%;
+      }
+      .projtext div{
+          width: 90%;
+          margin-top: 20px;
+          padding-bottom: 15px;
+      }
+   
+   
+      
+   
+   }
+   
